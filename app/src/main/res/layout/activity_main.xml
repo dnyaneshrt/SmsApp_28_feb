@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FFFACA"
+   android:orientation="vertical">
+
+   <EditText
+       android:id="@+id/et_mobile_number"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="enter mobile number:"
+       android:background="@drawable/edit_bg"
+       android:padding="10dp"
+       android:textSize="18sp"
+       android:textStyle="bold"
+       android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/et_message"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="enter your msg here"
+        android:padding="10dp"
+        android:background="@drawable/edit_bg"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:id="@+id/btn_call"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="call"
+            android:textSize="18sp"
+            android:backgroundTint="#E40450"
+            android:textStyle="bold"/>
+        <Button
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:id="@+id/btn_sms"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="sms"
+            android:textSize="18sp"
+            android:backgroundTint="#E40450"
+            android:textStyle="bold"/>
+        <Button
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:id="@+id/btn_whatsapp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="wp"
+            android:textSize="18sp"
+            android:backgroundTint="#E40450"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
